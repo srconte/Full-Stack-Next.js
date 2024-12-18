@@ -5,8 +5,11 @@ export interface MenuProps{
 
 
 export default function Menu(propos: MenuProps){
-<div><nav>
-    
-</nav>
-</div>
+    return (
+        <aside className="menu">
+            <nav>
+
+            </nav>
+        </aside>
+    )
 }
