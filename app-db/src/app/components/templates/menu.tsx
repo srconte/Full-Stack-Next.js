@@ -1,11 +1,11 @@
-import { IconHome } from "@tabler/icons-react-native"
+import { IconHome } from "@tabler/icons-react"
 import Link from "next/link"
 
 
 function MenuIten(){
     return (
-        <Link href="/">
-            <IconHome/> 
+        <Link href="/" className="flex gap-2">
+            <IconHome /> 
             <span>Inicio</span>
         </Link>
     )
@@ -13,10 +13,12 @@ function MenuIten(){
 
 
 
+
+
 export default function Menu(){
     return (
-        <aside className="menu">
-            <nav>
+        <aside className="w-72 bg-zinc-900 h-screen">
+            <nav className="flex flex-col">
                 <MenuIten/>
                 <MenuIten/>
                 <MenuIten/>
