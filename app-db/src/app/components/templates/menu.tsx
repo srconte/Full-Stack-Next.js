@@ -17,7 +17,10 @@ export default function Menu(){
     return (
         <aside className="menu">
             <nav>
-
+                <MenuIten/>
+                <MenuIten/>
+                <MenuIten/>
+                <MenuIten/>       
             </nav>
         </aside>
     )
